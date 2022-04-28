@@ -28,7 +28,7 @@ export default function Login() {
                 <Logo />
             </div>
             <br />
-            <section>
+            <section className="mb-2">
                 <form className="login-panel" onSubmit={onLoginFormSubmit}>
                     <div className='text-center'>
                         <h3>LOGIN BACKOFFICE</h3>
