@@ -23,7 +23,7 @@
     gap: 0.5rem;
     width: min(1000px, 90%);
     margin: auto;
-    border: 1px solid #FF974A;
+    border: 2px solid #FF974A;
 }
 
 .login-panel .input-box .input{
