@@ -23,6 +23,7 @@
     gap: 0.5rem;
     width: min(1000px, 90%);
     margin: auto;
+    border: 1px solid #FF974A;
 }
 
 .login-panel .input-box .input{
@@ -41,7 +42,7 @@
     color: white;
     font-weight: 700;
     background: linear-gradient(90deg, #FE8700 0%, #D5780E 100%);
-    width: min(470px, 80%);
+    width: min(370px, 80%);
     border-radius: 25px;
 }
 
