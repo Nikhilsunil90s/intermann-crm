@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import CanEmpl from "./CanEmpl";
 import './CSS/Sidebar.css'
 import Dashboard from "./Dashboard";
 import Header from "./Header";
@@ -84,7 +85,7 @@ function Sidebar() {
           </div>
           <div className="col-lg-9 col-md-9 col-xs-9">
               <Header />
-              <Dashboard />
+              <CanEmpl />
           </div>
         </div>
       </div>

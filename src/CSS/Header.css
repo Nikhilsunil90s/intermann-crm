@@ -10,7 +10,7 @@
 }
 body{
  
-overflow-x: hidden;
+overflow-x: scroll;
 }
 .navbar{
     padding-top: 0px !important;
