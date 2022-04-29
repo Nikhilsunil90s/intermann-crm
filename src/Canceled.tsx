@@ -1,25 +1,17 @@
 import React from "react";
-import "./css/CanEmpl.css";
-function CanEmpl() {
+import "./css/Canceled.css";
+function Embauch() {
   return (
     <>
       <div className="container-fluid">
-        <div className="row pd ">
+        <div className="row pd">
           <div className="col-12 text-center">
-            <img src={require("./images/todo.svg").default} style={{width:"70%"}}/>
+            <img src={require("./images/archive.svg").default} style={{width:"70%"}}/>
             <p className="text-family">
-              Ici vous avez la liste des candidats ne travaillant
-              <span> pas encore avec nous</span>
+            Ici vous avez la liste des candidats qui ont été virés ou archivés
             </p>
             <p className="child-text">
-              Vous devez toujours vous assurer d’avoir un maximum d’information
-              sur cette liste et déplacer les candidats en archive si plus
-              d’actualité
-            </p>
-            <p>
-              You should always make sure you have as much information as
-              possible on this list and move the candidates to the archive if
-              the candidate is not serious.
+            Here you have the list of candidates who have been fired or archived
             </p>
           </div>
           <div className="col-6">
@@ -102,7 +94,7 @@ function CanEmpl() {
                 <p>Candidats_name</p>
                 <p>Candidats_Age</p>
                 <p>Motivation:</p>
-                <div className="todo">TO DO</div>
+                <div className="Archived">Archived</div>
               </div>
             </div>
 
@@ -122,19 +114,20 @@ function CanEmpl() {
                 </span>
                 Permise.b
               </small>
+             <div className="box-red">
+                  <p>REASON WHY CANCELED : <span> client_Name</span></p>
+                 
+                                </div>
               <a href="#" className="btn btn-card">
                 See Full profile
               </a>
               <a href="#" className="btn btn-cardRight1">
                 Edit Profile
               </a>
-              <a href="#" className="btn btn-cardLeft">
-                
-                Move to in Progress
+              <a href="#" className="btn btn-cardbottom">
+              Move : to do
               </a>
-              <a href="#" className="btn btn-cardRight">
-                Archive
-              </a>
+             
             </div>
           </div>
         </div>
@@ -153,7 +146,8 @@ function CanEmpl() {
                 <p>Candidats_name</p>
                 <p>Candidats_Age</p>
                 <p>Motivation:</p>
-                <div className="todo">TO DO</div>
+                <div className="Archived">Archived</div>
+
               </div>
             </div>
 
@@ -173,18 +167,18 @@ function CanEmpl() {
                 </span>
                 Permise.b
               </small>
+             <div className="box-red">
+                  <p>  REASON WHY CANCELED : <span> client_Name</span></p>
+                 
+                                </div>
               <a href="#" className="btn btn-card">
                 See Full profile
               </a>
               <a href="#" className="btn btn-cardRight1">
                 Edit Profile
               </a>
-              <a href="#" className="btn btn-cardLeft">
-                
-                Move to in Progress
-              </a>
-              <a href="#" className="btn btn-cardRight">
-                Archive
+              <a href="#" className="btn btn-cardbottom">
+              Move : to do
               </a>
             </div>
           </div>
@@ -204,7 +198,8 @@ function CanEmpl() {
                 <p>Candidats_name</p>
                 <p>Candidats_Age</p>
                 <p>Motivation:</p>
-                <div className="todo">TO DO</div>
+                <div className="Archived">Archived</div>
+
               </div>
             </div>
 
@@ -224,18 +219,18 @@ function CanEmpl() {
                 </span>
                 Permise.b
               </small>
+             <div className="box-red">
+                  <p>  REASON WHY CANCELED : <span> client_Name</span></p>
+                 
+                                </div>
               <a href="#" className="btn btn-card">
                 See Full profile
               </a>
               <a href="#" className="btn btn-cardRight1">
                 Edit Profile
               </a>
-              <a href="#" className="btn btn-cardLeft">
-                
-                Move to in Progress
-              </a>
-              <a href="#" className="btn btn-cardRight">
-                Archive
+              <a href="#" className="btn btn-cardbottom">
+              Move : to do
               </a>
             </div>
             </div>
@@ -255,7 +250,8 @@ function CanEmpl() {
                 <p>Candidats_name</p>
                 <p>Candidats_Age</p>
                 <p>Motivation:</p>
-                <div className="todo">TO DO</div>
+                <div className="Archived">Archived</div>
+
               </div>
             </div>
 
@@ -275,18 +271,18 @@ function CanEmpl() {
                 </span>
                 Permise.b
               </small>
+              <div className="box-red">
+                  <p>  REASON WHY CANCELED : <span> client_Name</span></p>
+                 
+                                </div>
               <a href="#" className="btn btn-card">
                 See Full profile
               </a>
               <a href="#" className="btn btn-cardRight1">
                 Edit Profile
               </a>
-              <a href="#" className="btn btn-cardLeft">
-                
-                Move to in Progress
-              </a>
-              <a href="#" className="btn btn-cardRight">
-                Archive
+              <a href="#" className="btn btn-cardbottom">
+              Move : to do
               </a>
             </div>
             </div>
@@ -297,4 +293,4 @@ function CanEmpl() {
     </>
   );
 }
-export default CanEmpl;
+export default Embauch;

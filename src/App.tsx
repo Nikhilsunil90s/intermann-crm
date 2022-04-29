@@ -1,16 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-
 import './App.css';
 import Sidebar from './Sidebar';
-import CanEmpl from './CanEmpl';
+import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
+import Embauch from './Embauch';
 
-
+// const AppRoute = ({element:Component,layout:Layout, ...rest})=>(
+//   <Route {...rest} render ={props=>(
+//     <Layout><Component {...props}> </Component></Layout>
+//   )}></Route>
+//   )
 function App() {
+ 
   return (
-    <>
-   <Sidebar />      
-    </>
+//         <Router>
+//       <Routes>
+//  <AppRoute path ="/" layout={Sidebar} element={<Embauch />} />  
+//  </Routes>
+//  </Router>
+    
+<>
+<Sidebar />
+</>
   )
 }
 

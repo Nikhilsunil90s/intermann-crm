@@ -2,8 +2,13 @@ import React, { useEffect } from "react";
 import CanEmpl from "./CanEmpl";
 import './css/Sidebar.css'
 import Dashboard from "./Dashboard";
+import Embauch from "./Embauch";
+import Canceled from './Canceled'
 import Header from "./Header";
-function Sidebar() {
+import Employes from "./Employes";
+import AddClient from "./AddClient";
+
+function Sidebar(props:any) {
     
   return (
     <> 
@@ -18,7 +23,7 @@ function Sidebar() {
                 href="/"
                 className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
               ><span> 
-              <img src={require("./images/logo.svg").default} />
+              <img src={require("./images/logo-header.svg").default} />
               </span>
               <img src={require("./images/LogoName.svg").default} />
               </a>
@@ -85,6 +90,7 @@ function Sidebar() {
           </div>
           <div className="col-lg-9 col-md-9 col-xs-9">
               <Header />
+              {/* {props.children} */}
               <CanEmpl />
           </div>
         </div>

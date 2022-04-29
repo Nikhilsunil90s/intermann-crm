@@ -1,25 +1,21 @@
 import React from "react";
-import "./css/CanEmpl.css";
-function CanEmpl() {
+import "./css/Embauch.css";
+function Embauch() {
   return (
     <>
       <div className="container-fluid">
-        <div className="row pd ">
+        <div className="row ">
           <div className="col-12 text-center">
-            <img src={require("./images/todo.svg").default} style={{width:"70%"}}/>
+            <img src={require("./images/embauché.svg").default} style={{width:"70%",paddingTop:"30px"}}/>
             <p className="text-family">
-              Ici vous avez la liste des candidats ne travaillant
-              <span> pas encore avec nous</span>
+            Ici vous avez la liste des candidats qui travaillant 
+              <span> déjà chez nous, il sont donc lier à un contrat dans la liste lead</span>
             </p>
             <p className="child-text">
-              Vous devez toujours vous assurer d’avoir un maximum d’information
-              sur cette liste et déplacer les candidats en archive si plus
-              d’actualité
+            Vous devez toujours vous assurer d’avoir un maximum d’information sur chaque personne, y compris son rib, ses coordonnées etc...
             </p>
             <p>
-              You should always make sure you have as much information as
-              possible on this list and move the candidates to the archive if
-              the candidate is not serious.
+            Here you have the list of candidates who are already working with us, so they are linked to a contract in the lead list,ensure that you have as much information as possible about each person 
             </p>
           </div>
           <div className="col-6">
@@ -102,7 +98,7 @@ function CanEmpl() {
                 <p>Candidats_name</p>
                 <p>Candidats_Age</p>
                 <p>Motivation:</p>
-                <div className="todo">TO DO</div>
+                <div className="embauch">EMBAUCHé</div>
               </div>
             </div>
 
@@ -116,12 +112,17 @@ function CanEmpl() {
               <p>Facebook link : Candidats_Facebook </p>
               <p>Email : Candidats_Email </p>
               <p className="blue">Ready for work : From date To date </p>
-              <small>
+              <small className="permise">
                 <span>
                   <input type="checkbox" />
                 </span>
                 Permise.b
               </small>
+              <div className="box-gray">
+                  <p>WORK AT <small>: client_Name</small></p>
+                  <p>Since <small>: date</small></p>
+                  <p>Salary <small>: price €</small></p>
+              </div>
               <a href="#" className="btn btn-card">
                 See Full profile
               </a>
@@ -153,7 +154,8 @@ function CanEmpl() {
                 <p>Candidats_name</p>
                 <p>Candidats_Age</p>
                 <p>Motivation:</p>
-                <div className="todo">TO DO</div>
+                <div className="embauch">EMBAUCHé</div>
+
               </div>
             </div>
 
@@ -167,12 +169,17 @@ function CanEmpl() {
               <p>Facebook link : Candidats_Facebook </p>
               <p>Email : Candidats_Email </p>
               <p className="blue">Ready for work : From date To date </p>
-              <small>
+              <small className="permise">
                 <span>
                   <input type="checkbox" />
                 </span>
                 Permise.b
               </small>
+              <div className="box-gray">
+                  <p>WORK AT <small>: client_Name</small></p>
+                  <p>Since <small>: date</small></p>
+                  <p>Salary <small>: price €</small></p>
+              </div>
               <a href="#" className="btn btn-card">
                 See Full profile
               </a>
@@ -204,7 +211,8 @@ function CanEmpl() {
                 <p>Candidats_name</p>
                 <p>Candidats_Age</p>
                 <p>Motivation:</p>
-                <div className="todo">TO DO</div>
+                <div className="embauch">EMBAUCHé</div>
+
               </div>
             </div>
 
@@ -218,12 +226,17 @@ function CanEmpl() {
               <p>Facebook link : Candidats_Facebook </p>
               <p>Email : Candidats_Email </p>
               <p className="blue">Ready for work : From date To date </p>
-              <small>
+              <small className="permise">
                 <span>
                   <input type="checkbox" />
                 </span>
                 Permise.b
               </small>
+              <div className="box-gray">
+                  <p>WORK AT <small>: client_Name</small></p>
+                  <p>Since <small>: date</small></p>
+                  <p>Salary <small>: price €</small></p>
+              </div>
               <a href="#" className="btn btn-card">
                 See Full profile
               </a>
@@ -255,7 +268,8 @@ function CanEmpl() {
                 <p>Candidats_name</p>
                 <p>Candidats_Age</p>
                 <p>Motivation:</p>
-                <div className="todo">TO DO</div>
+                <div className="embauch">EMBAUCHé</div>
+
               </div>
             </div>
 
@@ -269,12 +283,17 @@ function CanEmpl() {
               <p>Facebook link : Candidats_Facebook </p>
               <p>Email : Candidats_Email </p>
               <p className="blue">Ready for work : From date To date </p>
-              <small>
+              <small className="permise">
                 <span>
                   <input type="checkbox" />
                 </span>
                 Permise.b
               </small>
+              <div className="box-gray">
+                  <p>WORK AT <small>: client_Name</small></p>
+                  <p>Since <small>: date</small></p>
+                  <p>Salary <small>: price €</small></p>
+              </div>
               <a href="#" className="btn btn-card">
                 See Full profile
               </a>
@@ -297,4 +316,4 @@ function CanEmpl() {
     </>
   );
 }
-export default CanEmpl;
+export default Embauch;

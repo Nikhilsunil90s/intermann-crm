@@ -8,7 +8,7 @@
 font-style: normal;
 }
 .pd{
-    padding-top: 30px;
+    padding: 30px 0px;
 }
 .text-family{
     padding-top: 10px !important;
@@ -46,16 +46,6 @@ hr.new5{
     height: 1px !important;
     border-radius: 34px;
 }
-.pd{
-    padding-top: 30px;
-}
-.pd-left{
-    padding-right: 10px !important;
-    
-}
-.row>*{
-    padding-right: unset !important;
-}
 .card-upper img{
     width: 65px;
     padding: 10px 4px;
@@ -71,7 +61,7 @@ hr.new5{
 .col-7 p{
     font-weight: 400;
     font-size: 12px;
-    line-height: 5px;
+    line-height: 2px;
     color: #ffff;
 }
 .card-color{
@@ -82,8 +72,8 @@ padding: 10px;
 .card-body{
     padding: 0.5rem 1rem !important;
 }
-.todo{
-    background: #C4C4C4;
+.Archived{
+    background: #FF0000;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 13px;
@@ -103,7 +93,12 @@ color:#ffff
     color: #3F76E2 !important;
 }
 .card-body small{
-    padding-right: 50px;
+    padding-right: 60px ;
+    font-size: 11px !important;
+    color: rgb(0, 0, 0);
+}
+.pd-left{
+    padding-right:7px !important ;
 }
 .btn-card{
     height: 20px;
@@ -124,9 +119,14 @@ font-size: 12px;
 line-height: 16px;
    width: 70px;
    font-size: 6px !important;
-   padding: 2px 0px 0px 0px !important;
+   padding: 2px 0px 0px  0px !important;
 }
-
+.box-red span{
+    padding-right: 0px !important;
+    font-size: 8px !important;
+    color: #ffff !important;
+    align-items: center;
+}
 
 .btn-cardRight1{
     height: 20px;
@@ -151,4 +151,30 @@ line-height: 16px;
     font-size: 6px !important;
     padding: 2px 0px 0px 0px !important;
    margin-left: 40px;
+}
+.box-red{
+    background-color: #FF0000 !important;
+    padding-left: 0px !important;
+    margin-bottom: 3px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.box-red p{
+    color:black;
+    font-size: 8px;
+    font-weight: 700;
+
+}
+.btn-cardbottom{
+    height: 20px;
+    margin-inline: 55px;
+    margin-top: 10px;
+    background: #979797;
+    color:#ffff;
+    font-weight: 700;
+line-height: 16px;
+    width: 70px;
+    font-size: 6px !important;
+    padding: 0px 0px 0px 0px !important;
 }
