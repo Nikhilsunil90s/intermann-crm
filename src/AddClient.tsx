@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import "./css/AddClient.css";
+import React, { useState,useEffect } from 'react';
+import "./CSS/AddClient.css";
 
 export default function AddClient() {
 
@@ -13,6 +13,14 @@ export default function AddClient() {
         console.log(data);
     }
 
+    useEffect(()=>{
+  
+        window.scroll({
+          top: 0,
+          left: 0,
+          behavior: 'smooth'
+        });
+    })
     return (
         <div className='p-2'>
             <div className="text-center py-3">
@@ -156,6 +164,7 @@ export default function AddClient() {
                             <input type="text" name="enteredBy" placeholder='Contact' className='form-control' value={data.enteredBy} onChange={onFormDataChange} />
                             <span className="text-small">Exemple : Jeremy Roggy; Patrick Bueno; TDR. Who entred this customer on the database </span>
                         </div>
+                        
                         <div className="col-md-12 col-12 py-4">
                             <div className="submit-btn-hold p-1 mx-auto d-flex">
                                 <button className="btn btn-dark" type='submit'>Ajouter ce client / Add this customer</button>

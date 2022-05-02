@@ -1,6 +1,13 @@
-import React from "react";
-import "./css/Embauch.css";
+import React, { useEffect } from "react";
+import "./CSS/Embauch.css";
 function Embauch() {
+  useEffect(()=>{
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  })
   return (
     <>
       <div className="container-fluid">

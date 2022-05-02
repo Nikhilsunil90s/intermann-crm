@@ -1,6 +1,13 @@
-import React from "react";
-import "./css/CanEmpl.css";
+import React,{useEffect} from "react";
+import "./CSS/CanEmpl.css";
 function CanEmpl() {
+  useEffect(()=>{
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+   } )
   return (
     <>
       <div className="container-fluid">

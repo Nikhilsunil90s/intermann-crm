@@ -1,97 +1,91 @@
-import React, { useEffect } from "react";
-import CanEmpl from "./CanEmpl";
-import './css/Sidebar.css'
-import Dashboard from "./Dashboard";
-import Embauch from "./Embauch";
-import Canceled from './Canceled'
+import React from "react";
+import { Link } from "react-router-dom";
+import './CSS/Sidebar.css'
 import Header from "./Header";
-import Employes from "./Employes";
-import AddClient from "./AddClient";
 
 function Sidebar(props:any) {
     
   return (
     <> 
       <div className="container-fluid">
-        <div className="row " style={{height:"100vh"}}>
+        <div className="row bg-side" style={{height:"100vh"}}>
           <div className="col-lg-3 col-md-3 col-xs-3 pd-gutter"  style={{height:"100vh"}}>
             <div
-              className="d-flex flex-column flex-shrink-0 p-3 "
+              className="d-flex flex-column flex-shrink-0 pt-3 "
            
             >
-              <a
-                href="/"
+              <Link
+                to="/"
                 className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
               ><span> 
               <img src={require("./images/logo-header.svg").default} />
               </span>
               <img src={require("./images/LogoName.svg").default} />
-              </a>
+              </Link>
               <hr />
               <ul className="nav nav-pills flex-column mb-auto text-class">
                 <li className="nav-item">
-                  <a href="#" className="nav-link active" aria-current="page">
+                  <Link to="#" className="nav-link active" aria-current="page">
                   <span className="px-2"> 
               <img src={require("./images/Shape.svg").default} />
               </span>
                     Résumé
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="nav-link link-dark">
+                  <Link to="#" className="nav-link link-dark">
                   <span className="px-2"> 
               <img src={require("./images/Combine.svg").default} />
               </span>
                     Leads  / clients
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="nav-link link-dark">
+                  <Link to="#" className="nav-link link-dark">
                   
                     To do / non traité / attente
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="nav-link link-dark">
+                  <Link to="#" className="nav-link link-dark">
                  
                     En cours de recherche
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="nav-link link-dark">
+                  <Link to="#" className="nav-link link-dark">
                     Terminé / Contrat en cours
-                  </a>
+                  </Link>
                 </li> <li>
-                  <a href="#" className="nav-link link-dark">Annulé / Archivé 
-                  </a>
+                  <Link to="#" className="nav-link link-dark">Annulé / Archivé 
+                  </Link>
                 </li> <li>
-                  <a href="#" className="nav-link link-dark">
+                  <Link to="/candidate" className="nav-link link-dark">
                   <span className="px-2"> 
               <img src={require("./images/Combine.svg").default} />
               </span>
                     Candidats / employés
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="nav-link link-dark">
+                  <Link to="#" className="nav-link link-dark">
                     En sommeil
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="nav-link link-dark">Embauché
-                  </a>
+                  <Link to="/embauch" className="nav-link link-dark">Embauché
+                  </Link>
                 </li> <li>
-                  <a href="#" className="nav-link link-dark">
+                  <Link to="/archive" className="nav-link link-dark">
                     Archivé
-                  </a>
+                  </Link>
                 </li>
               </ul>
              </div>   
           </div>
           <div className="col-lg-9 col-md-9 col-xs-9">
               <Header />
-              {/* {props.children} */}
-              <CanEmpl />
+              {props.children}
           </div>
         </div>
       </div>

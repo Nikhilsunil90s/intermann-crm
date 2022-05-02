@@ -1,6 +1,14 @@
-import React from "react";
-import "./css/Canceled.css";
+import React,{useEffect} from "react";
+import "./CSS/Canceled.css";
 function Embauch() {
+  useEffect(()=>{
+  
+      window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+  })
   return (
     <>
       <div className="container-fluid">

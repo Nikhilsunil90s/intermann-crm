@@ -73,17 +73,26 @@ border-radius: 16px;
 padding: 10px;
 }
 .card-body{
-    padding: 0.5rem 1rem !important;
+    padding: 0.5rem 0rem !important;
 }
 .embauch{
     background: #A461D8;
-    border: 1px solid #000000;
+    border: 1px solid #FFFF;
     box-sizing: border-box;
     border-radius: 13px;
     text-align: center;
+    color: #FFFF;
     width: 80px;
     height: 20px;
-    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+text-transform: uppercase;
 }
 .card-body p{
     margin-bottom: 0px !important;

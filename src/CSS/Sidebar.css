@@ -16,7 +16,7 @@
 .pd-left{
     padding-right:7px !important ;
 }
-.row>* {
+.bg-side {
          padding-right: 7px !important;
      padding-left: unset !important;
      background-color: #ffff;

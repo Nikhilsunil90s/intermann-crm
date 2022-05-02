@@ -80,7 +80,7 @@ border-radius: 16px;
 padding: 10px;
 }
 .card-body{
-    padding: 0.5rem 1rem !important;
+    padding: 0.5rem 0rem !important;
 }
 .todo{
     background: #C4C4C4;
@@ -103,7 +103,7 @@ color:#ffff
     color: #3F76E2 !important;
 }
 .card-body small{
-    padding-right: 50px;
+    padding-right: 80px;
 }
 .btn-card{
     height: 20px;

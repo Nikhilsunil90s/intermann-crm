@@ -67,7 +67,7 @@ hr.new5{
 .card-color{
     background: #FE8700 ;
 border-radius: 16px;
-padding: 10px;
+padding: 5px;
 }
 .card-body{
     padding: 0.5rem 1rem !important;
@@ -78,9 +78,14 @@ padding: 10px;
     box-sizing: border-box;
     border-radius: 13px;
     text-align: center;
-    width: 80px;
+    width: 74px;
     height: 20px;
-    font-size: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffff;
 }
 .card-body p{
     margin-bottom: 0px !important;

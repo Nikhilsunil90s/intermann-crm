@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/Dashboard.css"
+import "./CSS/Dashboard.css"
 function Dashboard(){
     return(<>
     <div className="container-fluid">

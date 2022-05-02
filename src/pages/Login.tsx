@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Logo from '../components/Logo';
-import "../css/Login.css";
+import "../CSS/Login.css";
 
 export default function Login() {
 
